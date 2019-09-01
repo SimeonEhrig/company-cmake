@@ -34,6 +34,7 @@
 
 ;;; Code:
 (require 'company)
+(require 'cl)
 
 (defgroup company-cmake nil
   "Completion back-end for CMake."
